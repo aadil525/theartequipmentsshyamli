@@ -1,0 +1,254 @@
+#title {
+  background-color: #fbd46d;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f
+}
+
+
+
+
+
+/* navigation bar */
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar {
+  padding: 0px 25px 0px 70px;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 130px;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* banner*/
+.banner-text {
+font-family: 'Oswald', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #393e46;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.crane-img {
+
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  position: relative;
+  right: 120px
+
+}
+
+/* products */
+#products {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f1;
+}
+.product-name{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.product-grid {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.image {
+  position: relative;
+}
+.features{
+  font-size: 0.9rem;
+
+}
+.hr-products {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+}
+
+/* branches */
+#branches {
+  padding: 3% 15%;
+  background-color: #fbd46d;
+}
+.hr-branches{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+  padding-bottom: 50px;
+}
+.branch-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #363636;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #eeeeee;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #eeecda;
+padding: 3% 15%;
+}
+.hr-testimonials{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+  padding-bottom :0px;
+}
+.carousel-item {
+  height: auto;
+  padding: 8% 6%;
+}
+
+/* CTA section */
+#cta {
+  background-color: #363636;
+  padding: 7% 15%;
+  text-align: center;
+}
+.logo2-img{
+  height:auto;
+  padding-top: 30px;
+  transform: rotate(-8deg);
+  max-width: 100%
+}
+.cta-para{
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 60px;
+}
+.cta-heading {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5rem;
+  text-align: left;
+  color: #8f8f8f;
+}
+/* about us */
+#about {
+  padding: 0% 15%;
+  text-align: center;
+  background-color: #363636;
+}
+
+.about-details{
+  margin-top: 0px;
+  line-height: 0;
+  padding-bottom: 2%
+}
+/* footer section */
+#footer {
+  padding: 2% 15%;
+  background-color: ##f8f8f1;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 1rem 0.8rem;
+  color: #393e46;
+}
+.footer-para {
+  font-size: .6rem;
+}
+.footer-icon:hover {
+  color: black;
+}
+
+
+/* media query */
+@media (max-width: 991px) {
+  .crane-img {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    height: auto;
+  }
+.section-headline{
+  font-size: 1.1rem
+}
+  .banner-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: auto
+  }
+
+
+
+  #title {
+    text-align: center;
+  }
+
+.cta-para{
+  font-size: 0.8rem;
+}
+  .cta-heading {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .about-details{
+  font-size: 0.7rem;
+  }
+  .logo2-img{
+    width: 50%;
+  }
+  .logo3 {
+    width: 40%;
+  }
+}
